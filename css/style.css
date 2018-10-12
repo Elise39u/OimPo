@@ -1,6 +1,7 @@
 body {
     padding: 0;
     margin: 0;
+    background: url("../img/Handgemaakte.jpg");
 }
 
 div {
@@ -73,4 +74,14 @@ div {
     display: none;
     position:absolute;
     list-style-type:none;
+}
+
+.subA {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.subA:hover {
+    text-decoration: underline;
+    color: #f2f2f2;
 }
