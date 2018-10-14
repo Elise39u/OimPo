@@ -2,15 +2,16 @@
 
 <div class="container">
     <div class="row">
-        <h1> Welcome to my portfolio </h1>
+        <h1> About me </h1>
     </div>
     <div class="row">
-        <p> welcome to my portfolio <br>
-        use the menu above to navigate through the website</p>
+        <h1> Schooling </h1>
     </div>
     <div class="row">
-        <img src="img/justin.jpg" style="width: 50%; height: 50%;">
+        <h1>Future vision</h1>
     </div>
 </div>
+
+
 
 <?php include ("templates/footer.php"); ?>

@@ -3,17 +3,15 @@ body {
     margin: 0;
     background: url("../img/Handgemaakte.jpg");
 }
-
 div {
-    border:  solid red 1px;
+    margin-top: 20px;
 }
 
 .menu {
     background:#005555;
     list-style-type: none;
     margin: 0;
-    padding: 0;
-    position: fixed;
+    padding: 0; <!-- Postion: fixed; -->
     width: 100%;
     height: 40px;
 }
