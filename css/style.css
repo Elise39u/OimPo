@@ -1,85 +1,35 @@
 body {
     padding: 0;
     margin: 0;
-    background: url("../img/Handgemaakte.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background: url("../img/Handgemaakte.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 div {
     margin-top: 20px;
 }
 
-.menu {
-    background:#005555;
-    list-style-type: none;
-    margin: 0;
-    padding: 0; <!-- Postion: fixed; -->
-    width: 100%;
-    height: 40px;
-}
-.menu > .menu1Li {
-    float: left;
+.subtekst {
+    font-style: italic;
 }
 
-.menu > .menu1Li > .menu1A {
-    padding:9px 20px;
-    display:block;
-    color:#fff;
-    text-decoration:none;
-    font:14px arial, verdana, sans-serif;
+.darkBack {
+    color: white;
 }
 
-.menu .menu1Li:hover .sub-menu {
-    left:0px;
-    top:30px;
-    background:#5FD367;
-    padding:0px;
-}
-
-.menu > .menu1Li:hover > ul li a {
-    padding:5px;
-    display:block;
-    width:168px;
-    text-indent:15px;
-    background-color:#5FD367;
-}
-
-.menu > .menu1A {
-    padding:9px 20px;
-    display:block;
-    text-decoration:none;.
-    font:12px arial, verdana, sans-serif;
-}
-
-.sub-menu > .subLi:hover > .subA {
-    padding:5px;
-    display:block;
-    width:168px;
-    text-indent:15px;
-    background-color:#5FD367;
-}
-
-.menu .menu1Li:hover {
-    position:relative;
-    background:#5FD367;
-}
-
-.menu1Li:hover .sub-menu {
-     display: block;
-     position:absolute;
-     background:#5FD367;
- }
-
-.sub-menu {
-    display: none;
-    position:absolute;
-    list-style-type:none;
-}
-
-.subA {
+.sociallink {
+    color: black;
     text-decoration: none;
-    color: #ffffff;
 }
 
-.subA:hover {
+.sociallink:hover {
+    color: #0087ff;
     text-decoration: underline;
-    color: #f2f2f2;
 }
