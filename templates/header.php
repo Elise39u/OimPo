@@ -33,7 +33,7 @@
                 </div>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="social.php">Social </a>
+                <a class="nav-link" href="<?php echo (URL. 'social.php'); ?>">Social </a>
             </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -47,6 +47,9 @@
                     <a class="dropdown-item" href="<?php echo (URL. 'opdrachtOIM/Robot.php'); ?>">We are the robots</a>
                     <a class="dropdown-item" href="<?php echo (URL. 'opdrachtOIM/UX.php'); ?>">User experience</a>
                 </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="<?php echo (URL. 'projects.php'); ?>">Projects </a>
             </li>
         </ul>
     </div>

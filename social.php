@@ -11,7 +11,7 @@
         <i class="fab fa-linkedin-in"><a class="sociallink" href="https://www.linkedin.com/in/justinvdlaar/"> Linkdedin </a></i>
     </div>
     <div class="row">
-        <i class="far fa-envelope"> mail: justin555@live.nl </i>
+        <i class="far fa-envelope"> mail: JNLHelper@outlook.com </i>
     </div>
 </div>
 
