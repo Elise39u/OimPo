@@ -9,7 +9,7 @@
         use the menu above to navigate through the website</p>
     </div>
     <div class="row">
-        <img src="img/justin.jpg" style="width: 50%; height: 50%;">
+        <img alt="" src="img/justin.jpg" style="width: 50%; height: 50%;">
     </div>
 </div>
 
